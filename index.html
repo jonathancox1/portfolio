@@ -11,41 +11,54 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
 
 </head>
 
 <body>
-    <div class="main-container row min-vh-100 border">
+    <div class="main-container row min-vh-100 mb-3">
         <div class="inner-container align-self-center min-vh-100 mx-auto border-top shadow-top" id="grad">
 
             <div class="container">
                 <div class="row m-5">
-                    <div class="col-md-8">
-                        <div class="display-2">
-                            <strong>Jonathan Cox</strong></div>
+                    <div class="col-md-8 align-self-end">
+                        <div class="display-1">
+                            <strong class="name">
+                                Jonathan Cox
+                            </strong></div>
                     </div>
                     <div class="col-md-4 text-right">
                         <h1><b>lets connect</b></h1>
-                        linkedIn | GitHub | Resume
+                        <a href="https://www.linkedin.com/in/jonathancox11/">linkedIn</a> | <a
+                            href="https://github.com/jonathancox1">Github</a> | <a href="#" class="" id="emailLink"
+                            onclick="copyEmail()" data-toggle="tooltip" data-placement="right"
+                            title="Copy Email">Email</a>
+                        <input type="text" value="cox.jonathan@gmail.com" id="email"
+                            style="position: absolute; left: -1000px; top: -1000px">
+
                         <br><br>
                         motivated, driven, self starter. up and comming pasionate software
                         engineer,
                         ready to tackle any
-                        problem head on. with a background in high pressure fast paced restaurant kitchens, to quality
+                        problem head on. with a background ranging from high pressure fast paced restaurant kitchens, to
+                        quality
                         analysis of craft beer, my passion is in the details.
 
                     </div>
                 </div>
             </div>
 
-            <div class="container">
-                <div class="row mr-5">
-                    <div class="col-md-8"></div>
-                    <div class="col-md-4 text-right">
+            <div class=" container">
+                <div class="row ml-5 mr-5">
+                    <div class="col-md-12 text-left mb-3">
                         <h1><b>projects</b></h1>
+                        <hr>
                     </div>
                 </div>
-                <div class="row m-3">
+
+                <div class="row m-3 mb-5">
                     <div class="col-md-4">
                         <div class="card shadow h-100 text-left bg-light rounded-xl">
                             <a href="https://jonathancoxmovies.netlify.app/" alt="Scene It - Movie Search">
@@ -60,7 +73,8 @@
                                             <i class="fab fa-css3-alt fa-lg text-dark"></i>
                                             <br>
                                             a single page app, that allows user to search and store
-                                            movies, view actors, plot synopsis, release year and ratings accessed by the
+                                            movies, view actors, plot synopsis, release year and ratings
+                                            accessed by the
                                             OMDB
                                             API
                                         </div>
@@ -83,7 +97,8 @@
                                             <i class="fab fa-html5 fa-lg text-dark"></i>
                                             <i class="fab fa-css3-alt fa-lg text-dark"></i>
                                             <br>
-                                            built with functional programming, this web app deals and removes random
+                                            built with functional programming, this web app deals and removes
+                                            random
                                             cards
                                             from
                                             a 52 card deck. the users decides when to hit and stay
@@ -117,21 +132,103 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
 
-    <script src="https://kit.fontawesome.com/771e6a2d5d.js" crossorigin="anonymous"></script>
+            <div class="container">
+                <div class="row ml-5 mr-5">
+                    <div class="col-md-12 text-left mb-3">
+                        <h1><b>education</b></h1>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row mr-5">
+                        <div class="col-md-6 text-center">
+                            <h3>Digital Crafts | Spring 2020</h3>
+                            Full Stack Immersive Bootcamp
+                            <br>
+                            16 Weeks, Atlanta Ga
+                            <br>
+                            Python, full-stack JavaScript
+                            <br>
+                            Node.js, Express, Github
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <h3>Valencia CC | Fall 2014</h3>
+                            Bachelor of Arts
+                            <br>
+                            General Studies, Orlando Fl
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row mt-5 ml-5 mr-5">
+                        <div class="col-md-12 text-left mb-3">
+                            <h1><b>skills</b></h1>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row ml-5">
+                        <div class="col-md-12 text-center" id='iconBlock'>
+                            <i class="fab fa-js-square fa-3x text-dark"></i>
+                            <i class="devicon-jquery-plain"></i>
+                            <i class="devicon-express-original"></i>
+                            <i class="fab fa-html5 fa-3x text-dark"></i>
+                            <i class="fab fa-css3-alt fa-3x text-dark"></i>
+                            <i class="fab fa-bootstrap fa-3x text-dark"></i>
+                            <i class="fab fa-npm fa-3x text-dark"></i>
+                            <i class="fab fa-node-js fa-3x text-dark"></i>
+                            <i class="fab fa-python fa-3x text-dark"></i>
+                            <i class="fas fa-code-branch fa-3x text-dark"></i>
+                            <i class="fab fa-github-square fa-3x text-dark"></i>
+                            <i class="devicon-visualstudio-plain"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row mt-5 ml-5 mr-5">
+                        <div class="col-md-12 text-left mb-3">
+                            <h1><b>interests</b></h1>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row ml-5 mr-5">
+                        <div class="col-md-12 text-left">
+                            Learning and new experiences have driven me thus far in life. Im constantly seeking
+                            to
+                            expand my thoughts and skills and growing both personally and professionally.
+                            Currently Im
+                            reading as much code as possible, but when Im
+                            not behind a screen you can find me roasting coffee, cooking my wife an awesome
+                            meal, or
+                            in the outdoors with our mutt Hunter.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+        <script src="https://kit.fontawesome.com/771e6a2d5d.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 
 </body>
 
