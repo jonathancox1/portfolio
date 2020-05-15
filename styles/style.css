@@ -8,7 +8,11 @@ body, html {
     background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(241, 248, 255, 1) 3%, rgba(241, 248, 255, 1) 3%, rgba(203, 216, 230, 1) 10%, rgba(255, 255, 255, 1) 100%);
 }
 
-.name {}
+@media (min-width: 1200px) {
+    #grad {
+        width: 65vw;
+    }
+}
 
 .devicon-express-original, .devicon-jquery-plain, .devicon-visualstudio-plain {
     font-size: 2.5rem;
