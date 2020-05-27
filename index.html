@@ -1,249 +1,229 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <title>Jonathan Cox | Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet"
-        href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+	<title>Jonathan Cox | Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script src="https://kit.fontawesome.com/771e6a2d5d.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet"
+		href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <div class="main-container row min-vh-100 mb-5">
-        <div class="inner-container align-self-center min-vh-100 mx-auto" id="grad">
+<body class="is-preload">
 
-            <div class="container">
-                <div class="row mx-5">
-                    <div class="order-sm-2 col-lg-7">
-                        <div class="display-2">
-                            <strong class="name text-center" style="font-family: 'Oswald', serif;">
-                                Jonathan Cox
-                            </strong></div>
-                        Motivated, driven, self starter.
-                        Up and coming passionate software
-                        engineer,
-                        ready to tackle any
-                        problem head on.
-                        Seeking a development role with a high performing team that encourages
-                        continued education.
-                        <br>
-                        My passion lies in the details.
-                        <br><br>
-                        <div class="text-center">
-                            <h1><b>let's connect</b></h1>
-                            <a href="https://www.linkedin.com/in/jonathancox11/">LinkedIn</a> | <a
-                                href="https://github.com/jonathancox1">Github</a> | <a href="#" class="" id="emailLink"
-                                onclick="copyEmail()" data-toggle="tooltip" data-placement="top"
-                                title="Click to Copy!">Email</a> | <a href="images/Resume-JonathanCox.pdf">Resume</a>
-                            <input type="text" value="cox.jonathan@gmail.com" id="email"
-                                style="position: absolute; left: -1000px; top: -1000px">
-                        </div>
-                    </div>
-                    <div class="order-sm-1 col-lg-5 text-center">
-                        <img src="/images/me.png" alt="Profile Photo" width="300px" class="my-2">
 
-                    </div>
-                </div>
-            </div>
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<img src=" images/me.png" alt="photo of me" width="250px" />
+			<h1 style="font-family: 'News Cycle', sans-serif; color: rgb(147, 147, 147)">
+				<b>Jonathan
+					Cox</b>
+			</h1>
+			<hr>
+			<h3>lets connect</h3>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/jonathancox11/" target="_blank"
+						class="icon brands fa-linkedin fa-lg"><span class="label">Linked In</span></a></li>
+				<li><a href="https://github.com/jonathancox1" target="_blank" class="icon brands fa-github fa-lg"><span
+							class="label">Github</span></a></li>
+				<li><a href="/images/Resume-JonathanCox.pdf" target="_blank" class="icon solid fa-file-pdf fa-lg"><span
+							class="label">Resume</span></a></li>
+				<li><a href="#email" class="icon solid fa-envelope fa-lg"><span class="label">Email</span></a></li>
+			</ul>
+		</div>
+	</header>
 
-            <div class=" container">
-                <div class="row ml-5 mr-5">
-                    <div class="col-lg-12 text-left mb-3">
-                        <h1><b>projects</b></h1>
-                        <hr>
-                    </div>
-                </div>
+	<div id="main">
+		<section></section>
 
-                <div class="row m-3 mb-5">
-                    <div class="col-lg-4">
-                        <div class="card shadow h-100 text-left bg-light rounded-xl mx-auto" style="max-width: 250px;">
-                            <a href="https://jonathancoxmovies.netlify.app/" target="_blank"
-                                alt="Scene It - Movie Search">
-                                <div class="card-body">
-                                    <img src="images/scene_it.png" class="card-img-top">
-                                    <div class="card-img-overlay row d-flex m-auto">
-                                        <div class="card-text">
-                                            <b>SCENE IT?</b>
-                                            <br>
-                                            <i class="fab fa-js-square fa-lg text-dark"></i>
-                                            <i class="fab fa-bootstrap fa-lg text-dark"></i>
-                                            <i class="fab fa-css3-alt fa-lg text-dark"></i>
-                                            <br>
-                                            A single page CRUD app that allows user to search and store
-                                            movies, view actors, plot synopsis, release year and ratings
-                                            accessed by the
-                                            OMDB
-                                            API
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow h-100 bg-light rounded-xl mx-auto mb-3" style="max-width: 250px;">
-                            <a href="https://jonathancoxblackjack.netlify.app/" target="_blank"
-                                alt="Blackjack with JavaScript">
-                                <div class="card-body">
-                                    <img src="images/blackjack.png" class="card-img-top">
-                                    <div class="card-img-overlay row d-flex m-auto">
-                                        <div class="card-text">
-                                            <b>BLACKJACK</b>
-                                            <br>
-                                            <i class="fab fa-js-square fa-lg text-dark"></i>
-                                            <i class="fab fa-bootstrap fa-lg text-dark"></i>
-                                            <i class="fab fa-html5 fa-lg text-dark"></i>
-                                            <i class="fab fa-css3-alt fa-lg text-dark"></i>
-                                            <br>
-                                            Built with functional programming, this web app deals and removes
-                                            random
-                                            cards
-                                            from
-                                            a 52 card deck. The users decides when to hit and stay
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="card shadow h-100 bg-light rounded-xl mx-auto mb-3" style="max-width: 250px;">
-                            <a href="https://jonathancoxbootstrap.netlify.app/" target="_blank" alt="Web Design Sample">
-                                <div class="card-body">
-                                    <img src="images/bootstrap.png" class="card-img-top m-auto">
-                                    <div class="card-img-overlay row d-flex m-auto">
-                                        <div class="card-text">
-                                            <b>WEB DESIGN</b>
-                                            <br>
-                                            <i class="fab fa-css3-alt fa-lg text-dark"></i>
-                                            <i class="fab fa-html5 fa-lg text-dark"></i>
-                                            <i class="fab fa-bootstrap fa-lg text-dark"></i>
-                                            <br>
-                                            A simplistic and modern aesthetic, this webpage showcases design and
-                                            functionality
-                                            in a completely responsive package
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+		<section id="summary">
+			<h3 class="my-0 mx-3 text-dark">
+				Motivated, driven and passionate software engineer.
+			</h3>
+			<h5 class="mx-3">
+				Up and coming developer ready to
+				tackle
+				any
+				challenge head on. Organized and goal oriented, my passion lies in the details. Seeking a development
+				role
+				with a high performing team that encourages continued education.
+			</h5>
+		</section>
 
-            <div class="container">
-                <div class="row ml-5 mr-5">
-                    <div class="col-lg-12 text-left mb-3">
-                        <h1><b>education</b></h1>
-                        <hr>
-                    </div>
-                </div>
+		<section id="two">
+			<h2 class="text-dark">Projects</h2>
+			<div class="row my-5">
+				<article class="col-12 work-item">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<a href="images/scene_it.png" class="image fit shadow border-dark"><img
+									src="images/thumbs/scene_it copy.png" alt="" /></a>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<h4>Scene It?</h4>
+							<p> This single page CRUD app that
+								allows user to search and store
+								movies, view actors, plot synopsis, release year and ratings
+								accessed by the
+								OMDB
+								API</p>
+							<a href="https://jonathancoxmovies.netlify.app/" target="_blank">Link</a> |
+							<a href="https://github.com/jonathancox1/scene-it" target="_blank">GitHub</a>
+						</div>
+					</div>
+				</article>
 
-                <div class="container">
-                    <div class="row mr-5 ml-5">
-                        <div class="col-lg-6 text-center mb-2">
-                            <h3>Digital Crafts | Spring 2020</h3>
-                            Full Stack Immersive Bootcamp
-                            <br>
-                            16 Weeks, Atlanta Georgia
-                            <br>
-                            Python, full-stack JavaScript
-                            <br>
-                            Node.js, Express, Git
-                        </div>
-                        <div class="col-lg-6 text-center mb-2">
-                            <h3>Valencia CC | Fall 2014</h3>
-                            Bachelor of Arts
-                            <br>
-                            General Studies, Orlando Florida
-                        </div>
-                    </div>
-                </div>
+				<article class="col-12 work-item">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<a href="images/blackjack.png" class="image fit shadow border-dark"><img
+									src="images/thumbs/blackjack copy.png" alt="" /></a>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<h4>Blackjack</h4>
+							<p> Built with functional programming, this web app deals and removes random cards from a
+								52 card deck. The user decides when to hit and stay.</p>
+							<a href="https://jonathancoxblackjack.netlify.app/" target="_blank">Link</a> |
+							<a href="https://github.com/jonathancox1/blackjack" target="_blank">GitHub</a>
+						</div>
+					</div>
+				</article>
 
-                <div class="container">
-                    <div class="row mt-5 ml-5 mr-5">
-                        <div class="col-lg-12 text-left mb-3">
-                            <h1><b>skills</b></h1>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row m-5">
-                        <div class="col-lg-12 text-center" id='iconBlock'>
-                            <i class="fab fa-js-square fa-3x text-dark"></i>
-                            <i class="devicon-jquery-plain text-dark"></i>
-                            <i class="devicon-express-original text-dark"></i>
-                            <i class="fab fa-html5 fa-3x text-dark"></i>
-                            <i class="fab fa-css3-alt fa-3x text-dark"></i>
-                            <i class="fab fa-bootstrap fa-3x text-dark"></i>
-                            <i class="fab fa-npm fa-3x text-dark"></i>
-                            <i class="fab fa-node-js fa-3x text-dark"></i>
-                            <i class="fab fa-python fa-3x text-dark"></i>
-                            <i class="fas fa-code-branch fa-3x text-dark"></i>
-                            <i class="fab fa-github-square fa-3x text-dark"></i>
-                            <i class="devicon-visualstudio-plain text-dark"></i>
-                        </div>
-                    </div>
-                </div>
+				<article class="col-12 work-item">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<a href="images/bootstrap.png" class="image fit shadow border-dark"><img
+									src="images/thumbs/bootstrap copy.png" alt="" /></a>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<h4>Web Design</h4>
+							<p> A simplistic and modern aesthetic, this webpage showcases design and functionality in a
+								completely responsive package. </p>
+							<a href="https://jonathancoxbootstrap.netlify.app/" target="_blank">Link</a> |
+							<a href="https://github.com/jonathancox1/Bootstrap101" target="_blank">GitHub</a>
+						</div>
+					</div>
+				</article>
 
-                <div class="container">
-                    <div class="row mt-5 ml-5 mr-5">
-                        <div class="col-lg-12 text-left mb-3">
-                            <h1><b>interests</b></h1>
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-                <div class="container mb-5">
-                    <div class="row ml-5 mr-5 mb-5">
-                        <div class="col-lg-12 text-left">
-                            Learning, problem solving, and new experiences have always been my driving force.
-                            Currently, I'm reading as much code as possible in an effort to grow as a developer.
-                            If I'm not behind a screen you can find me roasting coffee, cooking my wife an awesome meal,
-                            or spending time outdoors with our mutt Hunter. I also enjoy mountain biking, trying new
-                            restaurants, and traveling. I'm constantly seeking to expand my thoughts and my skills while
-                            growing both personally and professionally.
-                        </div>
-                    </div>
-                </div>
-                <div class="container mb-5">
-                    <div class="row mb-5">
-                        <div class="col-lg-12"></div>
-                    </div>
-                </div>
+				<article class="col-12 work-item">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6">
+							<a href="images/localdashboard.png" class="image fit shadow border-dark"><img
+									src="images/thumbs/localinfo.png" alt="" /></a>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<h4>Local Dashboard</h4>
+							<p> Built remotely In the Agile environment with a team of peer developers. The
+								Dashboard accepts the users location and formats it through Google's API and renders
+								local news, weather and traffic, all while remaining responsive. </p>
+							<a href="https://wizardly-khorana-147bb3.netlify.app/" target="_blank">Link</a> |
+							<a href="https://github.com/jonathancox1/Frontend-Group-Project" target="_blank">GitHub</a>
+						</div>
+					</div>
+				</article>
+		</section>
 
-            </div>
-        </div>
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+		<section id=education>
+			<h2 class="text-dark">Education</h2>
+			<div class="row my-5">
+				<div class="col-12 mb-5">
+					<h4>Digital Crafts | Spring 2020</h4>
+					Full Stack Immersive Bootcamp
+					<br>
+					16 Weeks, Atlanta Georgia
+					<br>
+					Python, Full-Stack JavaScript
+					<br>
+					Node.js, Express, Git, React, PostgreSQL
+				</div>
+				<div class="col-12">
+					<h4>Valencia College | Fall 2014</h4>
+					Bachelor of Arts
+					<br>
+					General Studies, Orlando Florida
+				</div>
+			</div>
+		</section>
 
-        <script src="https://kit.fontawesome.com/771e6a2d5d.js" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
+		<section id="skills">
+			<h2 class="text-dark">Skills</h2>
+			<div class="row my-5">
+				<div class="col-lg-12 text-center" id='iconBlock'>
+					<i class="iconBlock devicon-javascript-plain"></i>
+					<i class="iconBlock devicon-html5-plain-wordmark"></i>
+					<i class="iconBlock devicon-css3-plain-wordmark"></i>
+					<i class="iconBlock devicon-bootstrap-plain-wordmark"></i>
+					<i class="iconBlock devicon-nodejs-plain"></i>
+					<i class="iconBlock devicon-jquery-plain-wordmark"></i>
+					<i class="iconBlock devicon-express-original"></i>
+					<br />
+					<br />
+					<i class="iconBlock devicon-postgresql-plain-wordmark"></i>
+					<i class="iconBlock devicon-react-original-wordmark"></i>
+					<i class="iconBlock devicon-python-plain-wordmark"></i>
+					<i class="iconBlock fab fa-npm fa-3x"></i>
+					<i class="iconBlock devicon-github-plain-wordmark"></i>
+					<i class="iconBlock devicon-visualstudio-plain"></i>
+					<i class="iconBlock devicon-amazonwebservices-original"></i>
+					<i class="iconBlock devicon-git-plain-wordmark"></i>
+				</div>
+		</section>
 
+		<section id="interests">
+			<h2 class="text-dark">Interests</h2>
+			<div class="row my-5">
+				<p>
+					Learning, problem solving, and new experiences have always been my driving force. Currently, I'm
+					reading
+					as much code as possible in an effort to grow as a developer. If I'm not behind a screen you can
+					find me
+					roasting coffee, cooking my wife an awesome meal, or spending time outdoors with our mutt Hunter. I
+					also
+					enjoy mountain biking, trying new restaurants, and traveling. I'm constantly seeking to expand my
+					thoughts and my skills while growing both personally and professionally.
+				</p>
+			</div>
+		</section>
+
+		<section id="email">
+			<h2 class="text-dark">Let's Connect!</h2>
+			<div class="row my-5">
+				<div class="col-12 col-12-small">
+					<form name="contact" method="post" action="/template/index.html" data-netlify="true">
+						<div class="row gtr-uniform gtr-50">
+							<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name"
+									placeholder="Name" /></div>
+							<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email"
+									placeholder="Email" /></div>
+							<div class="col-12"><textarea name="message" id="message" placeholder="Message"
+									rows="4"></textarea></div>
+						</div>
+						<br>
+						<ul class="actions">
+							<li><input type="submit" value="Send Message" /></li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<section></section>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.poptrox.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
 </body>
 
 </html>
