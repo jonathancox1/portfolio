@@ -15,7 +15,8 @@ function smoothScroll() {
     document.querySelector('#email').scrollIntoView({
         behavior: 'smooth'
     });
-};
+
+}
 
 
 

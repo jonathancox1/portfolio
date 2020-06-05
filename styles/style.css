@@ -15,8 +15,8 @@ body, html {
 
 @keyframes slideInFromLeft {
     0% {
-        transform: translateX(-500%);
-        opacity: 0;
+        transform: translateX(-200%);
+        opacity: 0
     }
     100% {
         transform: translateX(0);
@@ -27,7 +27,7 @@ body, html {
 .slideInFromLeft {
     /* This section calls the slideInFromLeft animation we defined above */
     animation: .5s ease 0s 1 slideInFromLeft;
-    padding: 30px;
+    animation-fill-mode: both;
 }
 
 .fadeOnLoad {
