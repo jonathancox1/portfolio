@@ -1,3 +1,24 @@
+
+function smoothScroll() {
+    window.scroll({
+        top: 2500,
+        left: 0,
+        behavior: 'smooth'
+    });
+
+    window.scrollBy({
+        top: 100,
+        left: 0,
+        behavior: 'smooth'
+    });
+
+    document.querySelector('#email').scrollIntoView({
+        behavior: 'smooth'
+    });
+};
+
+
+
 $(window).on("load", function () {
     function fade() {
         var animation_height = $(window).innerHeight() * 0.25;
@@ -35,6 +56,7 @@ $(window).on("load", function () {
     $('')
     imgLoad();
 });
+
 
 // $(window).on("load", function () {
 //     function slide() {
