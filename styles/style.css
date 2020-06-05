@@ -15,19 +15,18 @@ body, html {
 
 @keyframes slideInFromLeft {
     0% {
-        /* transform: translateY(500%); */
+        transform: translateX(-500%);
         opacity: 0;
     }
     100% {
-        /* transform: translateY(0); */
+        transform: translateX(0);
         opacity: 1;
     }
 }
 
 .slideInFromLeft {
     /* This section calls the slideInFromLeft animation we defined above */
-    animation: 1s ease-in 0s 1 slideInFromLeft;
-    background: #333;
+    animation: .5s ease 0s 1 slideInFromLeft;
     padding: 30px;
 }
 
