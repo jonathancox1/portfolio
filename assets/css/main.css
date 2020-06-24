@@ -2180,13 +2180,13 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 	-ms-justify-content: space-between;
 	justify-content: space-between;
 	/* background-color: #555555; */
-	background: rgb(52, 52, 52);
+	background: #273036;
 	/* background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(142, 142, 142, 1) 56%, rgba(255, 255, 255, 1) 100%); */
-	/* background-attachment: scroll, scroll; */
-	/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
+	/* background-attachment: scroll, scroll;
+	background-image: url("images/waveleft.svg"), url("../../images/waveleft.svg");
 	background-position: top left, top left;
-	background-repeat: repeat, no-repeat;
-	background-size: auto, 150%;
+	background-repeat: no-repeat, repeat;
+	background-size: auto, 180%; */
 	color: rgba(255, 255, 255, 1);
 	height: 100%;
 	left: 0;
